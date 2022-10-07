@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.BudgetDomain"/>
+    <fullyQualifiedTypeName name="java.time.YearMonth"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.builder.YearDomainBuilder"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.YearDomain"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.PersonDomain"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.builder.PersondomainBuilder"/>
+</qualifiedTypeNameHistroy>

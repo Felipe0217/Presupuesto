@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;PersonalBudget_Crosscutting&apos;&#x0D;&#x0A;- Original project: &apos;PersonalBudget_Crosscutting&apos;&#x0D;&#x0A;- Original element: &apos;PersonalBudget_Crosscutting/src/com.mipresupuesto.personalbudget.crosscutting&apos;" description="Delete element" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mipresupuesto.personalbudget.crosscutting" element2="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mipresupuesto.personalbudget" element3="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mipresupuesto" element4="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1664510051623" subPackages="false" version="1.0"/>
+</session>

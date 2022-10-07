@@ -1,0 +1,34 @@
+
+u
+java:S18540"=Remove this useless assignment to local variable "myYearTwo".(ßšÇşÿÿÿÿ8ÈÚÖ»0H·RMAJORZ
+CODE_SMELL
+h
+java:S1128"0Remove this unused import 'java.time.YearMonth'.(€°’Ñùÿÿÿÿ8ÅÑÅ»0H¦RMINORZ
+CODE_SMELL
+m
+java:S1854/":Remove this useless assignment to local variable "myYear".(æ‹ŸÉ8ÅÑÅ»0H²RMAJORZ
+CODE_SMELL
+v
+java:S18543">Remove this useless assignment to local variable "myYearFive".(€ÅÕ»øÿÿÿÿ8ÈÚÖ»0HµRMAJORZ
+CODE_SMELL
+^
+java:S1481/"+Remove this unused "myYear" local variable.(æ‹ŸÉ8ÅÑÅ»0H³RMINORZ
+CODE_SMELL
+g
+java:S14813"/Remove this unused "myYearFive" local variable.(€ÅÕ»øÿÿÿÿ8ÈÚÖ»0H¿RMINORZ
+CODE_SMELL
+f
+java:S14810".Remove this unused "myYearTwo" local variable.(ßšÇşÿÿÿÿ8ÈÚÖ»0H¹RMINORZ
+CODE_SMELL
+q
+java:S18541"?Remove this useless assignment to local variable "myYearThree".(¥àå8ÈÚÖ»0H¸RMAJORZ
+CODE_SMELL
+b
+java:S14811"0Remove this unused "myYearThree" local variable.(¥àå8ÈÚÖ»0H»RMINORZ
+CODE_SMELL
+v
+java:S18542">Remove this useless assignment to local variable "myYearFour".(ıÈá´ùÿÿÿÿ8ÈÚÖ»0H¶RMAJORZ
+CODE_SMELL
+g
+java:S14812"/Remove this unused "myYearFour" local variable.(ıÈá´ùÿÿÿÿ8ÈÚÖ»0H½RMINORZ
+CODE_SMELL

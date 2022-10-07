@@ -1,0 +1,18 @@
+package com.mipresupuesto.personalbudget.domain;
+
+public class PersonDomain {
+	
+	private String id;
+	private String idCard;
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	
+	
+	private PersonDomain(String id, String idCard, String firstName, String middleName, String lastName) {
+		
+		
+	}
+	
+
+}
