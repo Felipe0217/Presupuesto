@@ -1,0 +1,46 @@
+package com.mipresupuesto.personalbudget.domain.builder;
+
+import com.mipresupuesto.personalbudget.domain.PersonDomain;
+import com.mipresupuesto.personalbudget.domain.YearDomain;
+
+public class BudgetDomainBuilder {
+	
+	private YearDomain year;
+	private PersonDomain person;
+	
+	
+	private BudgetDomaimBuilder() {
+		setYear(0);
+		setPerson("");
+	}
+
+
+	private final YearDomain getYear() {
+		return year;
+	}
+
+
+	private final PersonDomain getPerson() {
+		return person;
+	}
+
+
+	public final BudgetDomainBuilder setYear(YearDomain year) {
+		this.year = year;
+		return this;
+	}
+
+
+	public final BudgetDomainBuilder setPerson(PersonDomain person) {
+		this.person = person;
+		return this;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

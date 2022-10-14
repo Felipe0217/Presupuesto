@@ -10,4 +10,6 @@ Jsrc/com/mipresupuesto/personalbudget/domain/builder/YearDomainBuilder.java,f\6
 m
 =src/com/mipresupuesto/personalbudget/domain/PersonDomain.java,4\5\45e124bd2f3bd86491412aeeb5abcb8f367aff92
 |
-Lsrc/com/mipresupuesto/personalbudget/domain/builder/PersondomainBuilder.java,7\b\7b3ba7161485441bd7641a21cd7a8eff71bafaed
+Lsrc/com/mipresupuesto/personalbudget/domain/builder/BudgetDomainBuilder.java,9\3\93e0b2e77006155a0309ed8282bfa6c8033e8aac
+|
+Lsrc/com/mipresupuesto/personalbudget/domain/builder/PersonDomainBuilder.java,b\b\bb9b4d54b8316bc648e3b84ba2e2987a6c0339d4

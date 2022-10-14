@@ -1,22 +1,24 @@
 package com.mipresupuesto.personalbudget.domain;
 
+import java.util.UUID;
+
 public final class YearDomain {
 	
-	private  String id;
+	private  UUID id;
 	private  int year;
 	
-	private YearDomain(String id, int year) {
+	private YearDomain( final UUID id, final int year) {
 		setId(id);
 		setYear(year);
 		
 	}
 	
-	public static YearDomain create(String id, int year) {
+	public static YearDomain create(final UUID id, final int year) {
 		return new YearDomain(id, year);
 		
 	}
 
-	public final String getId() {
+	public final UUID getId() {
 		return id;
 	}
 
@@ -24,12 +26,16 @@ public final class YearDomain {
 		return year;
 	}
 
-	private final void setId(String id) {
-		this.id = id;
+	private final void setId(final UUID id) {
+		this.id = (id == null) ? UUID.randomUUID() : id;
 	}
 
 	private final void setYear(int year) {
 		this.year = year;
 	}
 
+	
+	
+	
+	
 }

@@ -1,49 +1,56 @@
 package com.mipresupuesto.personalbudget.domain;
 
+import java.util.UUID;
+
 public class PersonDomain {
 	
-	private String id;
+	private UUID id;
 	private String idCard;
 	private String firstName;
 	private String middleName;
-	private String lastName;
+	private String firstSurname;
+	private String secondSurname;
 	
 	
-	private PersonDomain(String id, String idCard, String firstName, String middleName, String lastName) {
+	private PersonDomain( final UUID id, final  String idCard, final String firstName, final String middleName, final String firstSurname, final String secondSurname) {
 		setId(id);
 		setIdCard(idCard);
 		setFirstName(firstName);
 		setMiddleName(middleName);
-		setLastName(lastName);
-		
+		setFirstSurname(firstSurname);
+		setSecondSurname(secondSurname);	
 	}
 	
-	public static PersonDomain create(String id, String idCard, String firstName, String middleName, String lastName) {
-		return new PersonDomain(id, idCard, firstName, middleName, lastName);
-				
+	public static PersonDomain create(final UUID id, final String idCard, final String firstName, final String middleName, final String firstSurname, final String secondSurname) {
+		
+		return new PersonDomain(id, idCard, firstName, middleName, firstSurname, secondSurname);
+	}
+	
+	private final void setId(final UUID id) {
+		this.id = (id == null) ? UUID.randomUUID() : id;
 	}
 
-	private final void setId(String id) {
-		this.id = id;
+	private final void setIdCard( final String idCard) {
+		this.idCard = (idCard == null) ? "" : idCard.trim();
 	}
 
-	private final void setIdCard(String idCard) {
-		this.idCard = idCard;
+	private final void setFirstName(final String firstName) {
+		this.firstName = (firstName == null) ? "" : firstName.trim();
 	}
 
-	private final void setFirstName(String firstName) {
-		this.firstName = firstName;
+	private final void setMiddleName( final String middleName) {
+		this.middleName = (middleName == null) ? "" : middleName.trim();
 	}
 
-	private final void setMiddleName(String middleName) {
-		this.middleName = middleName;
+	private final void setFirstSurname(final String firstSurname) {
+		this.firstSurname = (firstSurname == null) ? "" : firstSurname.trim();
 	}
 
-	private final void setLastName(String lastName) {
-		this.lastName = lastName;
+	private final void setSecondSurname(final String secondSurname) {
+		this.secondSurname = (secondSurname == null) ? "" : secondSurname.trim();
 	}
 
-	public final String getId() {
+	public final UUID getId() {
 		return id;
 	}
 
@@ -59,10 +66,26 @@ public class PersonDomain {
 		return middleName;
 	}
 
-	public final String getLastName() {
-		return lastName;
+	public final String getFirstSurname() {
+		return firstSurname;
 	}
 
+	public final String getSecondSurname() {
+		return secondSurname;
+	}
+	
+	public final String getLastName() {
+		return getFirstSurname() + " " + getSecondSurname();
+	}
+		
+	public final String getName() {
+		return (getFirstName() + " " + getMiddleName()).trim() + " " + getLastName();
+	}
+
+	public final String getCompleteName() {
+		return getName() + " " + getLastName();
+		
+	}
 	
 	
 }

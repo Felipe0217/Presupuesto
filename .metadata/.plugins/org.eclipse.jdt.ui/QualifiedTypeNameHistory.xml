@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.BudgetDomain"/>
     <fullyQualifiedTypeName name="java.time.YearMonth"/>
-    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.builder.YearDomainBuilder"/>
     <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.YearDomain"/>
-    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.PersonDomain"/>
     <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.builder.PersondomainBuilder"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.builder.YearDomainBuilder"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.builder.BudgetDomainBuilder"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.BudgetDomain"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.builder.PersonDomainBuilder"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.domain.PersonDomain"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.dto.PersonDTO"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.entity.BudgetEntity"/>
+    <fullyQualifiedTypeName name="java.time.Year"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.entity.YearEntity"/>
+    <fullyQualifiedTypeName name="com.mipresupuesto.personalbudget.entity.PersonEntity"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,14 @@
+package com.mipresupuesto.personalbudget.crosscutting.utils;
+import java.util.UUID;
+
+
+public final class UtilUUID {
+	
+	public static final String DEFAULT_UUID_STRING =
+	
+	private UtilUUID() {
+		super();
+	}
+	
+
+}

@@ -1,0 +1,5 @@
+package com.mipresupuesto.personalbudget.crosscutting.utils;
+
+public class UtilUUID {
+
+}
