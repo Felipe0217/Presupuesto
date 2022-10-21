@@ -2,6 +2,8 @@ package com.mipresupuesto.personalbudget.domain.builder;
 
 import java.util.UUID;
 
+import static com.mipresupuesto.personalbudget.crosscutting.utils.UtilUUID.DEFAULT_UUID;
+import static com.mipresupuesto.personalbudget.crosscutting.utils.UtilUUID.getDefaultUUID;
 import com.mipresupuesto.personalbudget.domain.PersonDomain;
 
 public class PersonDomainBuilder {
@@ -14,6 +16,7 @@ public class PersonDomainBuilder {
 	private String secondSurname;
 	
 	private PersonDomainBuilder() {
+		setId(DEFAULT_UUID);
 		setIdCard("");
 		setFirstName("");
 		setMiddleName("");
@@ -45,8 +48,8 @@ public class PersonDomainBuilder {
 		return secondSurname;
 	}
 
-	public final PersonDomainBuilder setId(UUID id) {
-		this.id = (id == null) ? UUID.randomUUID() : id;
+	public final PersonDomainBuilder setId(final UUID id) {
+		this.id = getDefaultUUID(id);
 		return this;
 	}
 

@@ -1,0 +1,5 @@
+package com.mipresupuesto.personalbudget.application.service.implementation;
+
+public class CreateBudgetUseCaseImpl {
+
+}

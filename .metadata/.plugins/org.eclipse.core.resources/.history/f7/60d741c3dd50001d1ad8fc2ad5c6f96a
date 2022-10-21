@@ -1,0 +1,17 @@
+package com.mipresupuesto.personalbudget.application.service.implementation;
+
+import com.mipresupuesto.personalbudget.application.service.interfaces.CreateBudgetUseCase;
+import com.mipresupuesto.personalbudget.domain.BudgetDomain;
+
+public class CreateBudgetUseCaseImpl implements CreateBudgetUseCase {
+
+	private
+	
+	
+	@Override
+	public void execute(BudgetDomain budget) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.mipresupuesto.personalbudget.application.dtoassembler;
+
+public interface DTOAssembler<T, D> {
+
+	D assemble(T dto);
+	T assemble(D dominio);
+	
+	
+}

@@ -1,0 +1,7 @@
+
+^
+java:S1068"&Remove this unused "id" private field.(Æí¶áşÿÿÿÿ8©„¹¿0HôRMAJORZ
+CODE_SMELL
+‰
+java:S1450"QRemove the "id" field and declare it as a local variable in the relevant methods.(Æí¶áşÿÿÿÿ8©„¹¿0HóRMINORZ
+CODE_SMELL

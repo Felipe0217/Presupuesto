@@ -2,17 +2,37 @@ package com.mipresupuesto.personalbudget.entity;
 
 import java.util.UUID;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import static com.mipresupuesto.personalbudget.crosscutting.utils.UtilUUID.DEFAULT_UUID;
+import static com.mipresupuesto.personalbudget.crosscutting.utils.UtilUUID.getDefaultUUID;
+
+@Entity
+@Table(name = "Person")
+
 public  final class PersonEntity {
 
+	
+	@Id
+	@Column(name = "id")
 	private UUID id;
+	@Column(name = "idCard")
 	private String idCard;
+	@Column(name = "firstName")
 	private String firstName;
+	@Column(name = "middleName")
 	private String middleName;
+	@Column(name = "firstSurname")
 	private String firstSurname;
+	@Column(name = "secondSurname")
 	private String secondSurname;
+	
 
-	public PersonEntity() {
-		setId();
+	public PersonEntity() { 
+		setId(DEFAULT_UUID);
 		setIdCard("");
 		setFirstName("");
 		setMiddleName("");
@@ -36,11 +56,14 @@ public  final class PersonEntity {
 	}
 	
 	public final UUID getId() {
+		if(id == null) {
+			setId(DEFAULT_UUID);
+		}
 		return id;
 	}
 
 	public final void setId(final UUID id) {
-		this.id = id;
+		this.id = getDefaultUUID(id);
 	}
 
 	public final String getIdCard() {
