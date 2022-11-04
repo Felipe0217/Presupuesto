@@ -1,0 +1,8 @@
+
+h
+java:S4973,"<Strings and Boxed types should be compared using "equals()".(öÂØŒ8ĞñÊÄ0HôRMAJORZBUG
+i
+java:S1144"1Remove this unused private "Message" constructor.(¡›ºÀøÿÿÿÿ8©°»Ä0HëRMAJORZ
+CODE_SMELL
+m
+java:S4973#"<Strings and Boxed types should be compared using "equals()".(ÿóî¿şÿÿÿÿ8©°»Ä0HæRMAJORZBUG

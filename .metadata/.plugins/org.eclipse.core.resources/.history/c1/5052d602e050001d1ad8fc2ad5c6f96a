@@ -1,5 +1,0 @@
-package com.mipresupuesto.personalbudget.application.command.implementation;
-
-public class createBudgetCommand {
-
-}

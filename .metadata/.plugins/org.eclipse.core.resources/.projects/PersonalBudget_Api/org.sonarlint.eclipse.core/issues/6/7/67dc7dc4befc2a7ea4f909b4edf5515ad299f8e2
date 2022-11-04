@@ -1,0 +1,13 @@
+
+k
+java:S1481"3Remove this unused "responseEntity" local variable.(ÏÚä„ûÿÿÿÿ8ûş‰‚Ä0H’RMINORZ
+CODE_SMELL
+v
+java:S1854">Remove this useless assignment to local variable "statusCode".( É½øÿÿÿÿ8’‘‚Ä0H¢RMAJORZ
+CODE_SMELL
+q
+java:S1854(">Remove this useless assignment to local variable "statusCode".(¶ÁÎ¦8Ä†›‚Ä0HÀRMAJORZ
+CODE_SMELL
+g
+java:S1481"/Remove this unused "statusCode" local variable.( É½øÿÿÿÿ8’‘‚Ä0H£RMINORZ
+CODE_SMELL

@@ -1,0 +1,24 @@
+package com.mipresupuesto.personalbudget.controller.response;
+
+import antlr.collections.List;
+
+public class Response <D>{
+	
+	private List<D> data;
+	private List<Message> messages;
+	
+	
+	public Response() {
+		super();
+		
+		
+		
+	}
+	
+	public void addMessage(final Message message) {
+		
+		
+		
+	}
+
+}

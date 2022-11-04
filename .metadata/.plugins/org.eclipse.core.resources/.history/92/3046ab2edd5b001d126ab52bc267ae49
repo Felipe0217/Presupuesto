@@ -1,0 +1,55 @@
+package com.mipresupuesto.personalbudget.controller.response.dto;
+
+import com.mipresupuesto.personalbudget.controller.response.enumeration.MessageLevel;
+
+public class Message {
+	
+	private String text;
+	private String  title;
+	private MessageLevel level;
+	
+	
+	private Message(String text, String title, MessageLevel level) {
+		setText(text);
+		setTitle(title);
+		setLevel(level);
+	}
+
+
+	public final String getText() {
+		return text;
+	}
+
+
+	public final String getTitle() {
+		return title;
+	}
+
+
+	public final MessageLevel getLevel() {
+		return level;
+	}
+
+
+	private final void setText( final String text) {
+		if)text == null || "".intern() == text.intern().trim(){
+			this.text = "";
+		}else {
+		this.text = text;
+	}
+
+
+	private final void setTitle(String title) {
+		this.title = title;
+	}
+
+
+	private final void setLevel(MessageLevel level) {
+		this.level = level;
+	}
+	
+	
+	
+	
+
+}

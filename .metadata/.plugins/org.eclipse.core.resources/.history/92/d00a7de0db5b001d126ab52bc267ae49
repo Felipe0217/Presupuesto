@@ -1,0 +1,5 @@
+package com.mipresupuesto.personalbudget.controller.response;
+
+public class Response {
+
+}

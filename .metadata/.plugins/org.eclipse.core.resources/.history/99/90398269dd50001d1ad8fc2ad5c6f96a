@@ -1,9 +1,0 @@
-package com.mipresupuesto.personalbudget.application.entityassembler;
-
-public class EntityAssembler<E, D> {
-	
-	D assembleDomain(E entity);
-	E assembleEntity(D domain);
-	
-
-}
